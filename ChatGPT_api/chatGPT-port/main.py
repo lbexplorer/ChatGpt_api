@@ -6,7 +6,7 @@ from prettytable import PrettyTable
 from tenacity import stop_after_attempt, wait_exponential, retry
 from tqdm import tqdm
 # 设置ChatGPT的API密钥
-openai.api_key = "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"
+openai.api_key = "open——AI-key"
 system_gen_system_prompt = """Your job is to generate system prompts for GPT-4, given a description of the use-case and some test cases.
 
 The prompts you will be generating will be for freeform tasks, such as generating a landing page headline, an intro paragraph, solving a math problem, etc.
